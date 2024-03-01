@@ -1,0 +1,22 @@
+{
+  "name": "hooks-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "simple-git-hooks": {
+    "commit-msg": "npx tsx ./scripts/verify-commit.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.22",
+    "picocolors": "^1.0.0",
+    "simple-git-hooks": "^2.9.0",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  }
+}
