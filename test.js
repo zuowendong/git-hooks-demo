@@ -3,5 +3,7 @@ function aFn() {
   console.log(a)
 }
 const bFn = () => {
-  console.log(a)
+  console.log(b)
 }
+
+const b = 'bbbb'
