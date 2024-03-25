@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"running pre-commit\" && exit 1"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged",
